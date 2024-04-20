@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "attendance-record-fastapi"
+version = "0.1.0"
+description = ""
+authors = ["Yusuke Nakashima <yuusukerego@yahoo.co.jp>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.110.2"
+uvicorn = "^0.29.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
