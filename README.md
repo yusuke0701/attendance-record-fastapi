@@ -22,6 +22,10 @@
 7. `poetry add fastapi`
 8. `poetry add uvicorn`
 
+## プロジェクトの初回セットアップ
+
+`poetry install --no-root`
+
 ## ローカルサーバーの立ち上げ
 
-`uvicorn main:app --reload`
+`.venv/bin/uvicorn main:app --reload`
