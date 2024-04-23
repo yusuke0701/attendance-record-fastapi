@@ -26,6 +26,8 @@
 
 `poetry install --no-root`
 
+`python ./migrate_db.py`
+
 ## ローカルサーバーの立ち上げ
 
 `.venv/bin/uvicorn main:app --reload`
