@@ -20,5 +20,6 @@
 				"terminal.integrated.defaultProfile.linux": "fish"
 			}
 		}
-	}
+	},
+	"postCreateCommand": "/bin/bash .devcontainer/postCreateCommand.sh"
 }
