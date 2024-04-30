@@ -30,4 +30,10 @@
 
 ## ローカルサーバーの立ち上げ
 
+### サーバー
+
 `.venv/bin/uvicorn main:app --reload`
+
+### クライアント
+
+streamlit run client/app.py
