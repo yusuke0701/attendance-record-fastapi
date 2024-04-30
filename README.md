@@ -1,4 +1,4 @@
-# TODOアプリをFastAPIで作ってみる
+# 勤怠管理アプリをFastAPI+Streamlitで作ってみる
 
 ## 環境構築メモ
 
@@ -21,6 +21,7 @@
    3. `editor.formatOnSave` を有効にする
 7. `poetry add fastapi`
 8. `poetry add uvicorn`
+9. `poetry add streamlit`
 
 ## プロジェクトの初回セットアップ
 
@@ -37,3 +38,12 @@
 ### クライアント
 
 streamlit run client/app.py
+
+## ディレクトリ構成
+
+├── client streamlit で作成しているクライアント
+├── cruds DB操作
+├── models DBの型定義
+├── routers APIのルーティングを定義
+├── schemas APIのリクエスト・レスポンスの型定義
+└── tests テストコード
